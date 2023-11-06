@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="food.donation">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityClass.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityClass.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.GuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.ForgetPassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.SignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.ChangePass"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.DonateFoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.ViewProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClass.UpdateActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
